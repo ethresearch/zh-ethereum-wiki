@@ -13,8 +13,8 @@
 <li><a href="#macros-%E5%AE%8F">Macros (宏)</a></li>
 <li><a href="#%E7%B1%BB%E5%9E%8B">类型</a></li>
 <li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
-<li><a href="#%E5%B0%8F%E6%8F%90%E7%A4%BA">小提示</a></li>*/
-</ul>
+<li><a href="#%E5%B0%8F%E6%8F%90%E7%A4%BA">小提示</a></li>
+</ul>*/
 
 <p>译者: jan</p>
 <p><strong>更多以太坊信息请访问<a href="http://ethfans.org" rel="nofollow">EthFans.org</a></strong></p>
