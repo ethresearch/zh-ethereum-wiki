@@ -218,7 +218,6 @@ self.blah[125] = x + y
 <p>我们应该优先考虑使用定长数组，因为在计算数组元素(array index)对应的存储位置(storage index)的时候，定长数组消耗的gas更少。</p>
 <p>也可以定义元组(tuple)，元组的元素也可以是结构化数据：</p>
 <pre><code>data body(head(eyes[2], nose, mouth), arms[2], legs[2])
-
 x = self.body.head.nose
 y = self.body.arms[1]
 </code></pre>
