@@ -1,22 +1,5 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Serpent与Python的区别](#serpent%E4%B8%8Epython%E7%9A%84%E5%8C%BA%E5%88%AB)
-- [安装](#%E5%AE%89%E8%A3%85)
-- [指南](#%E6%8C%87%E5%8D%97)
-- [另一个实例：名称注册合约 (Name Registry)](#%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B%E5%90%8D%E7%A7%B0%E6%B3%A8%E5%86%8C%E5%90%88%E7%BA%A6-name-registry)
-- [引用代码和调用其他合约](#%E5%BC%95%E7%94%A8%E4%BB%A3%E7%A0%81%E5%92%8C%E8%B0%83%E7%94%A8%E5%85%B6%E4%BB%96%E5%90%88%E7%BA%A6)
-- [持久化保存结构化数据](#%E6%8C%81%E4%B9%85%E5%8C%96%E4%BF%9D%E5%AD%98%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE)
-- [内存中的数组](#%E5%86%85%E5%AD%98%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84)
-- [数组与函数](#%E6%95%B0%E7%BB%84%E4%B8%8E%E5%87%BD%E6%95%B0)
-- [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
-- [Macros (宏)](#macros-%E5%AE%8F)
-- [类型](#%E7%B1%BB%E5%9E%8B)
-- [其他](#%E5%85%B6%E4%BB%96)
-- [小提示](#%E5%B0%8F%E6%8F%90%E7%A4%BA)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- TITLE: Serpent -->
+<!-- SUBTITLE: A quick summary of serpent -->
 
 译者: jan
 
