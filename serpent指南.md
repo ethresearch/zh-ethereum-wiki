@@ -224,33 +224,27 @@ y = self.body.arms[1]
 </code></pre>
 <p>然后是元组数组(array of tuples)：</p>
 <pre><code>data bodies[100](head(eyes[2], nose, mouth), arms[2](fingers[5], elbow), legs[2])
-
 x = self.bodies[45].head.eyes[1]
 y = self.bodies[x].arms[1].fingers[3]
 </code></pre>
 <p>注意下面这样的写法是不行的：</p>
 <pre><code>data body(head(eyes[2], nose, mouth), arms[2], legs[2])
-
 x = self.body.head
 y = x.eyes[0]
 </code></pre>
 <p>也就是说对结构化数据内部元素的存取必须在一行语句中完成。</p>
 <p>还是以名称注册表（name registry）为例，让我们来看看具体如何使用结构化数据。我们要实现一个增强版的名称注册表，当用户注册key成功时他会成为key的所有者，key的所有者可以 (1) 转移所有权，以及(2) 改变key对应的键值(value)。为了简洁函数不再返回1或者0。</p>
 <pre><code>data registry[](owner, value)
-
 def register(key):
     # Key not yet claimed
     if not self.registry[key].owner:
         self.registry[key].owner = msg.sender
-
 def transfer_ownership(key, new_owner):
     if self.registry[key].owner == msg.sender:
         self.registry[key].owner = new_owner
-
 def set_value(key, new_value):
     if self.registry[key].owner == msg.sender:
         self.registry[key].value = new_value
-
 def ask(key):
     return([self.registry[key].owner, self.registry[key].value], items=2)
 </code></pre>
