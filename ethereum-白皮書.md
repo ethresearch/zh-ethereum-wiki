@@ -1,10 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+<!-- TITLE: 白皮書 -->
+<!-- SUBTITLE: A quick summary of 白皮書 -->
 
-- [次世代的智能合約與去中心化应用程式平台](#%E6%AC%A1%E4%B8%96%E4%BB%A3%E7%9A%84%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E8%88%87%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BC%8F%E5%B9%B3%E5%8F%B0)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### 次世代的智能合約與去中心化应用程式平台
 
