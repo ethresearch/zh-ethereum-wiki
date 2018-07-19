@@ -56,18 +56,3 @@
 <li><a href="http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.htm" rel="nofollow">C++ 以太坊实现</a></li>
 <li><a href="https://github.com/ethereum/pyethereum/wiki">pyethereum Python 以太坊实现</a></li>
 </ul>
-
-
-| <a href="https://github.com/ethereum/wiki/wiki/%5BGerman%5D-Ethereum-TOC">Deutsch</a>
-| <a href="https://github.com/ethereum/wiki/wiki">English</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BSpanish%5D-Ethereum-TOC">Español</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BFrench%5D-Ethereum-TOC">Français</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper">한국어</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BItalian%5D-Ethereum-TOC">Italiano</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BPortuguese%5D-White-Paper/">Portuguese</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BRomanian%5D-Cuprins">Română</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9">العربية</a>]
-| <a href="https://github.com/ethereum/wiki/wiki/%5BPersian%5D-Ethereum-TOC">فارسی</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BChinese%5D-Ethereum-TOC">中文(繁体)</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BSimplified-Chinese%5D-Ethereum-TOC">中文(简体)</a>
-| <a href="https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-TOC">日本語</a></p>
