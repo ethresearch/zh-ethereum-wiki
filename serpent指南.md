@@ -1,5 +1,6 @@
 <!-- TITLE: Serpent指南 -->
-/*<p><strong>Contents</strong></p>
+<!--
+<p><strong>Contents</strong></p>
 <ul>
 <li><a href="#serpent%E4%B8%8Epython%E7%9A%84%E5%8C%BA%E5%88%AB">Serpent与Python的区别</a></li>
 <li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
@@ -14,7 +15,7 @@
 <li><a href="#%E7%B1%BB%E5%9E%8B">类型</a></li>
 <li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
 <li><a href="#%E5%B0%8F%E6%8F%90%E7%A4%BA">小提示</a></li>
-</ul>*/
+</ul>-->
 
 <p>译者: jan</p>
 <p><strong>更多以太坊信息请访问<a href="http://ethfans.org" rel="nofollow">EthFans.org</a></strong></p>
