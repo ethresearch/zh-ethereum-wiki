@@ -120,6 +120,7 @@ eee97206000000000000000000000000000000000000000000000000000000000000002a
 def ask(key):
     return(self.storage[key])
 </code></pre>
+
 <p>这份合约首先定义了<code>register</code>函数，这个函数接受<code>key</code>和<code>value</code>变量作为参数。第二行是注释，以<code>#</code>开头，注释会被编译器忽略，仅仅用来帮助程序员更好的理解程序。然后是一个标准的if/else条件语句：先检查<code>self.storage[key]</code>是否为0(即表明这个key没有被使用)，如果是0则执行赋值<code>self.storage[key] = value</code>然后返回1,否则直接返回0。<code>self.storage</code>是一个伪数组，有和数组类似的行为但是实际上没有一块内存与之对应。</p>
 <p>让我们把这段代码放入一个名为"namecoin.se"的文件，然后在pyethereum中试试：</p>
 <pre><code>&gt; from pyethereum import tester as t
