@@ -55,14 +55,8 @@
 <li><a href="https://github.com/ethereum/pyethereum/wiki">pyethereum Python 以太坊实现</a></li>
 </ul>
 
-        </div>
 
-        <div id="wiki-footer" class="wiki-footer gollum-markdown-content boxed-group">
-          <div class="boxed-group-inner wiki-auxiliary-content wiki-writable markdown-body">
-              <a href="/ethereum/wiki/wiki/_Footer/_edit" class="wiki-edit-link" title="Edit footer">
-                <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-              </a>
-            <p>| <a href="https://github.com/ethereum/wiki/wiki/%5BGerman%5D-Ethereum-TOC">Deutsch</a>
+| <a href="https://github.com/ethereum/wiki/wiki/%5BGerman%5D-Ethereum-TOC">Deutsch</a>
 | <a href="https://github.com/ethereum/wiki/wiki">English</a>
 | <a href="https://github.com/ethereum/wiki/wiki/%5BSpanish%5D-Ethereum-TOC">Español</a>
 | <a href="https://github.com/ethereum/wiki/wiki/%5BFrench%5D-Ethereum-TOC">Français</a>
