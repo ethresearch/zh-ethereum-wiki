@@ -1,3 +1,6 @@
+<!-- TITLE: 以太坊wiki目录 -->
+<!-- SUBTITLE: A quick summary of 以太坊wiki目录 -->
+
 中文读者可以在[以太坊爱好者社区](http://ethfans.org)获知最新信息。
 
 白皮书：[以太坊（Ethereum ）:下一代智能合约和去中心化应用平台](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
