@@ -205,14 +205,12 @@ data orders[](buys[](user, price, quantity), sells[](user, price, quantity))
 <p>请注意我们是如何先在顶部定义结构化数据，然后在合约中使用它们的。对这些结构化数据的读和写都会被转化成在持久化存储上的读写，因此这些结构化数据是持久保存的。</p>
 <p>定义结构化数据的语法很简单。首先可以定义最简单的变量：</p>
 <pre><code>data blah
-
 x = self.blah
 self.blah = x + 1
 </code></pre>
 <p>还可以定义定长数组和不定长数组：</p>
 <pre><code>data blah[1243]
 data blaz[]
-
 x = self.blah[505]
 y = self.blaz[3**160]
 self.blah[125] = x + y
@@ -279,7 +277,6 @@ def ask(key):
 <p>函数可以接受数组作为参数，也可以返回一个数组：</p>
 <pre><code>def compose(inputs:arr):
     return(inputs[0] + inputs[1] * 10 + inputs[2] * 100)
-
 def decompose(x):
     return([x % 10, (x % 100) / 10, x / 100]:arr)
 </code></pre>
@@ -287,7 +284,6 @@ def decompose(x):
 <p>当合约调用自己定义的函数的时候，数组参数会被自动识别出来正确处理，例如：</p>
 <pre><code>def compose(inputs:arr, radix):
     return(inputs[0] + inputs[1] * radix + inputs[1] * radix ** 2)
-
 def main():
     return self.compose([1,2,3,4,5], 100)
 </code></pre>
@@ -304,12 +300,10 @@ extern compose_test: [compose:ai, main]
 <p>将字符串用作函数参数或者返回值时，需要在函数签名中使用字符串标记<code>str</code>，类似使用<code>arr</code>来标记数组。使用<code>len(s)</code>方法可以得到字符串的长度，而<code>slice(s)</code>方法可以用来裁剪字符串。</p>
 <p>下面是一个用字符串做参数和返回值的例子：</p>
 <pre><code>data str
-
 def t2():
     self.str = text("01")
     log(data=self.str)
     return(self.str, chars=2)
-
 def runThis():
     s = self.t2(outsz=2)
     log(data=s)
@@ -332,7 +326,6 @@ def runThis():
         $m = max($m, $a[i])
         $i += 1
     $m
-
 x = maxarray([1, 9, 5, 6, 2, 4]:6)
 </code></pre>
 <p>点击下面的链接可以看到更多展示macros牛逼用法的例子：</p>
@@ -343,31 +336,22 @@ x = maxarray([1, 9, 5, 6, 2, 4]:6)
 <p><strong>警告：这是新加入的未经测试的特性，大蛇出没注意！</strong></p>
 <p>Serpent中的穷人版类型系统是体现macros威力的绝佳例子，和macros一起使用时能产生非常有趣的结果。直接上例子：</p>
 <pre><code>type float: [a, b, c]
-
 macro float($x) + float($y):
     float($x + $y)
-
 macro float($x) - float($y):
     float($x - $y)
-
 macro float($x) * float($y):
     float($x * $y / 2^32)
-
 macro float($x) / float($y):
     float($x * 2^32 / $y)
-
 macro unfloat($x):
     $x / 2^32
-
 macro floatfy($x):
     float($x * 2^32)
-
 macro float($x) = float($y):
     $x = $y
-
 macro with(float($x), float($y), $z):
     with($x, $y, $z)
-
 a = floatfy(25)
 b = a / floatfy(2)
 c = b * b
