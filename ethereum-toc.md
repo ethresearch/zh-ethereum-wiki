@@ -1,17 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+<!-- TITLE: 歡迎來到 Ethereum Wiki -->
+<!-- SUBTITLE: A quick summary -->
 
-- [歡迎來到 Ethereum Wiki](#%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0-ethereum-wiki)
-  - [狀態](#%E7%8B%80%E6%85%8B)
-    - [Spurious Dragon](#spurious-dragon)
-  - [入門](#%E5%85%A5%E9%96%80)
-  - [別迷路了](#%E5%88%A5%E8%BF%B7%E8%B7%AF%E4%BA%86)
-  - [下載](#%E4%B8%8B%E8%BC%89)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# 歡迎來到 Ethereum Wiki
 
 這是社區維護的維基，包含各種由ÐΞV建造的次世代點對點科技平台，包括 **Ethereum**，_可開發智能契約的衍生區塊鏈_，和私有底層資料包通信平台**Whisper**。
 
