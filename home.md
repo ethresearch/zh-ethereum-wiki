@@ -1,9 +1,8 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: A quick summary of Home -->
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+
+# Contents
 
   - [以太坊（Ethereum ）:下一代智能合约和去中心化应用平台](#%E4%BB%A5%E5%A4%AA%E5%9D%8Aethereum-%E4%B8%8B%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%92%8C%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0)
   - [目录](#%E7%9B%AE%E5%BD%95)
@@ -405,11 +404,11 @@ BLK_LIMIT_FACTOR 和 EMA_FACTOR 是暂且被设为 65536 和 1.5 的常数，但
 图灵完备的替代是图灵不完备，这里 JUMP 和 JUMPI 指令不存在并且在某个给定时间每个合约只允许有一个拷贝存在于调用堆栈内。在这样的系统里，上述的费用系统和围绕我们的方案的效率的不确定性可能都是不需要的，因为执行一个合约的成本将被它的大小决定。此外，图灵不完备甚至不是一个大的限制，在我们内部设想的所有合约例子中，至今只有一个需要循环，而且即使这循环也可以被26个单行代码段的重复所代替。考虑到图灵完备带来的严重的麻烦和有限的益处，为什么不简单地使用一种图灵不完备语言呢？事实上图灵不完备远非一个简洁的解决方案。为什么？请考虑下面的合约：
 
 ```python
-C0: call(C1); call(C1);
-C1: call(C2); call(C2);
-C2: call(C3); call(C3);
+C0: call(C1); call(C1);
+C1: call(C2); call(C2);
+C2: call(C3); call(C3);
 ...
-C49: call(C50); call(C50);
+C49: call(C50); call(C50);
 C50: (作一个图灵机的步计算和记录结果在合约的长期存储)
 ```
 
