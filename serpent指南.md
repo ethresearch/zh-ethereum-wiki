@@ -116,7 +116,6 @@ eee97206000000000000000000000000000000000000000000000000000000000000002a
         return(1)
     else:
         return(0)  # Key already claimed
-
 def ask(key):
     return(self.storage[key])
 </code></pre>
