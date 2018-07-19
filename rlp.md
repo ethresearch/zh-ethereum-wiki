@@ -1,11 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+<!-- TITLE: RLP -->
+<!-- SUBTITLE: A quick summary of RLP -->
 
-- [定义](#%E5%AE%9A%E4%B9%89)
-- [例子](#%E4%BE%8B%E5%AD%90)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 RLP (递归长度前缀)提供了一种适用于任意二进制数据数组的编码，RLP已经成为以太坊中对对象进行序列化的主要编码方式。 RLP的唯一目标就是解决结构体的编码问题；对原子数据类型（比如，字符串，整数型，浮点型）的编码则交给更高层的协议；以太坊中要求数字必须是一个大端字节序的、没有零占位的存储的格式（也就是说，一个整数0和一个空数组是等同的）。
 
