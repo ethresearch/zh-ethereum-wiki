@@ -147,7 +147,6 @@ d66d6c10000000000000000000000000000000000000000000000000000067656f72676500000000
 </code></pre>
 <p>returnten.se:</p>
 <pre><code>extern mul2: [double]
-
 MUL2 = create('mul2.se')
 def returnten():
     return(MUL2.double(5, as=mul2))
